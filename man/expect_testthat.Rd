@@ -237,7 +237,7 @@ the heuristic implemented in \code{\link{vname}}.}
 }
 \description{
 Expectations for package \CRANpkg{testthat}.
-See the respective help page in \CRANpkg{checkmate} (replace `expect_` with `check_`) for a 
+See the respective help page in \CRANpkg{checkmate} (replace `expect_` with `check_`) for a
 description of the function arguments.
 }
 \keyword{internal}
