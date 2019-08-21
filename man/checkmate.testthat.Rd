@@ -239,6 +239,9 @@ the heuristic implemented in \code{\link{vname}}.}
 Expectations for package \CRANpkg{testthat}.
 See the respective help page in \CRANpkg{checkmate} (replace `expect_` with `check_`) for a
 description of the function arguments.
-E.g., for the help page of `expect_numeric`, see \code{link[checkmate]{check_numeric}}.
+E.g., for the help page of `expect_numeric`, see \code{\link[checkmate]{check_numeric}}.
+}
+\examples{
+expect_character(letters, any.missing = FALSE)
 }
 \keyword{internal}

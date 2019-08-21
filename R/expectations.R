@@ -37,7 +37,7 @@ as_expectation = function(check.fun, env = parent.frame()) {
 #' Expectations for package \CRANpkg{testthat}.
 #' See the respective help page in \CRANpkg{checkmate} (replace `expect_` with `check_`) for a
 #' description of the function arguments.
-#' E.g., for the help page of `expect_numeric`, see \code{link[checkmate]{check_numeric}}.
+#' E.g., for the help page of `expect_numeric`, see \code{\link[checkmate]{check_numeric}}.
 #'
 #' @param info [character(1)]\cr
 #'  Extra information to be included in the message for the \CRANpkg{testthat} reporter.
@@ -51,6 +51,8 @@ NULL
 
 #' @rdname checkmate.testthat
 #' @export
+#' @examples
+#' expect_character(letters, any.missing = FALSE)
 expect_access = as_expectation(checkmate::check_access)
 
 #' @rdname checkmate.testthat
